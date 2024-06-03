@@ -14,7 +14,3 @@ process.on("beforeExit", () => {
 });
 
 console.log("Process Started");
-
-process.on("exit", () => {
-  console.log("Exited the event");
-});
